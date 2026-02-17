@@ -40,6 +40,18 @@ A recommended (but not required) package is `Injection Foundation` from PoomSmar
 
 After installation, settings are available in the Settings app. You may configure global defaults, or add an app-specific configuration. Shadow allows fine-grained control of its bypass strength, so there will be many options available to configure.
 
+### Command Line Tool
+
+Shadow includes a command-line utility (`shdw`) for testing path restrictions:
+
+```bash
+# Check if specific paths are restricted
+shdw /path/to/check
+
+# Regenerate the dpkg installed ruleset
+shdw -g
+```
+
 ## Legal
 
 *Copyright Act*, RSC 1985, c C-42, s 41.12.
